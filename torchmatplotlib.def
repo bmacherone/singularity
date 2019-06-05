@@ -1,5 +1,6 @@
 Bootstrap: library
 From: ubuntu:18.04
+# torch matplotlib test environment
 
 %post
     # add package repositories
