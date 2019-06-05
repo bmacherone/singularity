@@ -1,16 +1,16 @@
 Bootstrap: docker
 From: ubuntu:16.04
 
-# Adds metadata to the image as a key value pair example LABEL version="1.0"
 %labels
+description "A scientific python environment with Jupyter notebook interface"
 maintainer "Brian Macherone <bmacherone@albany.edu>"
+version "0.1 beta"
 
 # Set environment variables
 %environment
 export LANG=C.UTF-8 LC_ALL=C.UTF-8
 export PATH=/opt/conda/bin:$PATH
 
-# create empty directory to attach volume
 %post
 export PATH=/opt/conda/bin:$PATH
 
@@ -29,8 +29,8 @@ apt-get clean
 rm -rf /var/lib/apt/lists/* 
 
 # Install Jupyter config
-mkdir ~/.ssh && touch ~/.ssh/known_hosts 
-ssh-keygen -F github.com || ssh-keyscan github.com >> ~/.ssh/known_hosts 
+#mkdir ~/.ssh && touch ~/.ssh/known_hosts 
+#ssh-keygen -F github.com || ssh-keyscan github.com >> ~/.ssh/known_hosts 
 git clone https://github.com/bobbywlindsey/dotfiles.git 
 mkdir ~/.jupyter 
 mkdir -p ~/.jupyter/custom 
@@ -84,8 +84,6 @@ chmod -R go-w vim_binding
 # remove everything you don't need
 apt-get remove -y wget git-core pkg-config
 
-
-#EXPOSE 8888
 
 %runscript
 export XDG_RUNTIME_DIR=""
