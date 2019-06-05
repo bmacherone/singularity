@@ -12,3 +12,6 @@ $ wget https://raw.githubusercontent.com/bmacherone/singularity/master/train_xor
 # this is the content of test1.bat:
 $ singularity exec singularity_torchmatplotlib.sif python3 train_xor.py --output model.p
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3OTE5NjcxMDldfQ==
+-->
