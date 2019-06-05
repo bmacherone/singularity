@@ -16,7 +16,7 @@ $ singularity exec singularity_torchmatplotlib.sif python3 train_xor.py --output
 ## scientific python jupyter notebook environment
 
 ```
-$ singularity pull shub://bmacherone/singularity.scijupyter
+$ singularity pull shub://bmacherone/singularity:scijupyter
 
 $ singularity exec singularity_scijupyter.sif 
 
