@@ -1,0 +1,2513 @@
+#
+Variable
+Type
+Len
+Format
+Informat
+Label
+1
+UNITID_P
+Num
+8
+ 
+ 
+Unitid_plus
+2
+INSTNM
+Char
+91
+$91.
+$91.
+Institution Name
+3
+BRANCH
+Char
+81
+$81.
+$81.
+Branch Name
+4
+Address
+Char
+103
+$103.
+$103.
+ 
+5
+City
+Char
+32
+$32.
+$32.
+ 
+6
+State
+Char
+2
+$2.
+$2.
+ 
+7
+Zip
+Char
+13
+$13.
+$13.
+ 
+8
+sector_cd
+Num
+8
+
+
+Sector Code
+9
+sector_desc
+Char
+36
+$36.
+$36.
+Sector Description
+10
+men_total
+Num
+8
+ 
+ 
+Total Men
+11
+women_total
+Num
+8
+ 
+ 
+Total Women
+12
+Total
+Num
+8
+ 
+ 
+Grand Total
+13
+MURD15
+Num
+8
+ 
+ 
+Murder 2015
+14
+MURD_RAC15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Race
+15
+MURD_REL15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Religion
+16
+MURD_SEX15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Sexual Orientation
+17
+MURD_GEN15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Gender
+18
+MURD_GID15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Gender Identity
+19
+MURD_DIS15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Disability
+20
+MURD_ET15
+Num
+8
+ 
+ 
+Murder 2015 by Bias Ethnicity
+21
+MURD_NAT15
+Num
+8
+ 
+ 
+Murder 2015 by Bias National Origin
+22
+RAPE15
+Num
+8
+ 
+ 
+Rape 2015
+23
+RAPE_RAC15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Race
+24
+RAPE_REL15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Religion
+25
+RAPE_SEX15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Sexual Orientation
+26
+RAPE_GEN15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Gender
+27
+RAPE_GID15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Gender Identity
+28
+RAPE_DIS15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Disability
+29
+RAPE_ET15
+Num
+8
+ 
+ 
+Rape 2015 by Bias Ethnicity
+30
+RAPE_NAT15
+Num
+8
+ 
+ 
+Rape 2015 by Bias National Origin
+31
+FOND15
+Num
+8
+ 
+ 
+Fondling 2015
+32
+FOND_RAC15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Race
+33
+FOND_REL15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Religion
+34
+FOND_SEX15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Sexual Orientation
+35
+FOND_GEN15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Gender
+36
+FOND_GID15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Gender Identity
+37
+FOND_DIS15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Disability
+38
+FOND_ET15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias Ethnicity
+39
+FOND_NAT15
+Num
+8
+ 
+ 
+Fondling 2015 by Bias National Origin
+40
+INCE15
+Num
+8
+ 
+ 
+Incest 2015
+41
+INCE_RAC15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Race
+42
+INCE_REL15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Religion
+43
+INCE_SEX15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Sexual Orientation
+44
+INCE_GEN15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Gender
+45
+INCE_GID15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Gender Identity
+46
+INCE_DIS15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Disability
+47
+INCE_ET15
+Num
+8
+ 
+ 
+Incest 2015 by Bias Ethnicity
+48
+INCE_NAT15
+Num
+8
+ 
+ 
+Incest 2015 by Bias National Origin
+49
+STAT15
+Num
+8
+ 
+ 
+Statutory Rape 2015
+50
+STAT_RAC15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Race
+51
+STAT_REL15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Religion
+52
+STAT_SEX15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Sexual Orientation
+53
+STAT_GEN15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Gender
+54
+STAT_GID15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Gender Identity
+55
+STAT_DIS15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Disability
+56
+STAT_ET15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias Ethnicity
+57
+STAT_NAT15
+Num
+8
+ 
+ 
+Statutory Rape 2015 by Bias National Origin
+58
+ROBBE15
+Num
+8
+ 
+ 
+Robbery 2015
+59
+ROBBE_RAC15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Race
+60
+ROBBE_REL15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Religion
+61
+ROBBE_SEX15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Sexual Orientation
+62
+ROBBE_GEN15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Gender
+63
+ROBBE_GID15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Gender Identity
+64
+ROBBE_DIS15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Disability
+65
+ROBBE_ET15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias Ethnicity
+66
+ROBBE_NAT15
+Num
+8
+ 
+ 
+Robbery 2015 by Bias National Origin
+67
+AGG_A15
+Num
+8
+ 
+ 
+Aggravated Assault 2015
+68
+AGG_A_RAC15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Race
+69
+AGG_A_REL15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Religion
+70
+AGG_A_SEX15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Sexual Orientation
+71
+AGG_A_GEN15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Gender
+72
+AGG_A_GID15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Gender Identity
+73
+AGG_A_DIS15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Disability
+74
+AGG_A_ET15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias Ethnicity
+75
+AGG_A_NAT15
+Num
+8
+ 
+ 
+Aggravated Assault 2015 by Bias National Origin
+76
+BURGLA15
+Num
+8
+ 
+ 
+Burglary 2015
+77
+BURGLA_RAC15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Race
+78
+BURGLA_REL15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Religion
+79
+BURGLA_SEX15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Sexual Orientation
+80
+BURGLA_GEN15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Gender
+81
+BURGLA_GID15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Gender Identity
+82
+BURGLA_DIS15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Disability
+83
+BURGLA_ET15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias Ethnicity
+84
+BURGLA_NAT15
+Num
+8
+ 
+ 
+Burglary 2015 by Bias National Origin
+85
+VEHIC15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015
+86
+VEHIC_RAC15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Race
+87
+VEHIC_REL15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Religion
+88
+VEHIC_SEX15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Sexual Orientation
+89
+VEHIC_GEN15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Gender
+90
+VEHIC_GID15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Gender Identity
+91
+VEHIC_DIS15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Disability
+92
+VEHIC_ET15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias Ethnicity
+93
+VEHIC_NAT15
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2015 by Bias National Origin
+94
+ARSON15
+Num
+8
+ 
+ 
+Arson 2015
+95
+ARSON_RAC15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Race
+96
+ARSON_REL15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Religion
+97
+ARSON_SEX15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Sexual Orientation
+98
+ARSON_GEN15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Gender
+99
+ARSON_GID15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Gender Identity
+100
+ARSON_DIS15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Disability
+101
+ARSON_ET15
+Num
+8
+ 
+ 
+Arson 2015 by Bias Ethnicity
+102
+ARSON_NAT15
+Num
+8
+ 
+ 
+Arson 2015 by Bias National Origin
+103
+SIM_A15
+Num
+8
+ 
+ 
+Simple Assault 2015
+104
+SIM_A_RAC15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Race
+105
+SIM_A_REL15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Religion
+106
+SIM_A_SEX15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Sexual Orientation
+107
+SIM_A_GEN15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Gender
+108
+SIM_A_GID15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Gender Identity
+109
+SIM_A_DIS15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Disability
+110
+SIM_A_ET15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias Ethnicity
+111
+SIM_A_NAT15
+Num
+8
+ 
+ 
+Simple Assault 2015 by Bias National Origin
+112
+LAR_T15
+Num
+8
+ 
+ 
+Larceny 2015
+113
+LAR_T_RAC15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Race
+114
+LAR_T_REL15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Religion
+115
+LAR_T_SEX15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Sexual Orientation
+116
+LAR_T_GEN15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Gender
+117
+LAR_T_GID15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Gender Identity
+118
+LAR_T_DIS15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Disability
+119
+LAR_T_ET15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias Ethnicity
+120
+LAR_T_NAT15
+Num
+8
+ 
+ 
+Larceny 2015 by Bias National Origin
+121
+INTIM15
+Num
+8
+ 
+ 
+Intimidation 2015
+122
+INTIM_RAC15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Race
+123
+INTIM_REL15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Religion
+124
+INTIM_SEX15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Sexual Orientation
+125
+INTIM_GEN15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Gender
+126
+INTIM_GID15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Gender Identity
+127
+INTIM_DIS15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Disability
+128
+INTIM_ET15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias Ethnicity
+129
+INTIM_NAT15
+Num
+8
+ 
+ 
+Intimidation 2015 by Bias National Origin
+130
+VANDAL15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015
+131
+VANDAL_RAC15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Race
+132
+VANDAL_REL15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Religion
+133
+VANDAL_SEX15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Sexual Orientation
+134
+VANDAL_GEN15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Gender
+135
+VANDAL_GID15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Gender Identity
+136
+VANDAL_DIS15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Disability
+137
+VANDAL_ET15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias Ethnicity
+138
+VANDAL_NAT15
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2015 by Bias National Origin
+139
+INCE_NAT16
+Num
+8
+ 
+ 
+Incest 2016 by Bias National Origin
+150
+STAT16
+Num
+8
+ 
+ 
+Statutory Rape 2016
+151
+STAT_RAC16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Race
+152
+STAT_REL16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Religion
+153
+STAT_SEX16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Sexual Orientation
+154
+STAT_GEN16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Gender
+155
+STAT_GID16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Gender Identity
+156
+STAT_DIS16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Disability
+157
+STAT_ET16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias Ethnicity
+158
+STAT_NAT16
+Num
+8
+ 
+ 
+Statutory Rape 2016 by Bias National Origin
+159
+ROBBE16
+Num
+8
+ 
+ 
+Robbery 2016
+160
+ROBBE_RAC16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Race
+161
+ROBBE_REL16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Religion
+162
+ROBBE_SEX16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Sexual Orientation
+163
+ROBBE_GEN16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Gender
+164
+ROBBE_GID16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Gender Identity
+165
+ROBBE_DIS16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Disability
+166
+ROBBE_ET16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias Ethnicity
+167
+ROBBE_NAT16
+Num
+8
+ 
+ 
+Robbery 2016 by Bias National Origin
+168
+AGG_A16
+Num
+8
+ 
+ 
+Aggravated Assault 2016
+169
+AGG_A_RAC16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Race
+170
+AGG_A_REL16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Religion
+171
+AGG_A_SEX16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Sexual Orientation
+172
+AGG_A_GEN16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Gender
+173
+AGG_A_GID16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Gender Identity
+174
+AGG_A_DIS16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Disability
+175
+AGG_A_ET16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias Ethnicity
+176
+AGG_A_NAT16
+Num
+8
+ 
+ 
+Aggravated Assault 2016 by Bias National Origin
+177
+BURGLA16
+Num
+8
+ 
+ 
+Burglary 2016
+178
+BURGLA_RAC16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Race
+179
+BURGLA_REL16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Religion
+170
+BURGLA_SEX16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Sexual Orientation
+171
+BURGLA_GEN16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Gender
+172
+BURGLA_GID16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Gender Identity
+173
+BURGLA_DIS16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Disability
+174
+BURGLA_ET16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias Ethnicity
+175
+BURGLA_NAT16
+Num
+8
+ 
+ 
+Burglary 2016 by Bias National Origin
+176
+VEHIC16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016
+177
+VEHIC_RAC16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Race
+178
+VEHIC_REL16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Religion
+179
+VEHIC_SEX16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Sexual Orientation
+180
+VEHIC_GEN16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Gender
+181
+VEHIC_GID16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Gender Identity
+182
+VEHIC_DIS16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Disability
+183
+VEHIC_ET16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias Ethnicity
+184
+VEHIC_NAT16
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2016 by Bias National Origin
+185
+ARSON16
+Num
+8
+ 
+ 
+Arson 2016
+186
+ARSON_RAC16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Race
+187
+ARSON_REL16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Religion
+188
+ARSON_SEX16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Sexual Orientation
+189
+ARSON_GEN16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Gender
+190
+ARSON_GID16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Gender Identity
+191
+ARSON_DIS16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Disability
+192
+ARSON_ET16
+Num
+8
+ 
+ 
+Arson 2016 by Bias Ethnicity
+193
+ARSON_NAT16
+Num
+8
+ 
+ 
+Arson 2016 by Bias National Origin
+194
+SIM_A16
+Num
+8
+ 
+ 
+Simple Assault 2016
+195
+SIM_A_RAC16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Race
+196
+SIM_A_REL16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Religion
+197
+SIM_A_SEX16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Sexual Orientation
+198
+SIM_A_GEN16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Gender
+199
+SIM_A_GID16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Gender Identity
+200
+SIM_A_DIS16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Disability
+201
+SIM_A_ET16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias Ethnicity
+202
+SIM_A_NAT16
+Num
+8
+ 
+ 
+Simple Assault 2016 by Bias National Origin
+203
+LAR_T16
+Num
+8
+ 
+ 
+Larceny 2016
+204
+LAR_T_RAC16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Race
+205
+LAR_T_REL16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Religion
+206
+LAR_T_SEX16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Sexual Orientation
+207
+LAR_T_GEN16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Gender
+208
+LAR_T_GID16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Gender Identity
+209
+LAR_T_DIS16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Disability
+210
+LAR_T_ET16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias Ethnicity
+211
+LAR_T_NAT16
+Num
+8
+ 
+ 
+Larceny 2016 by Bias National Origin
+212
+INTIM16
+Num
+8
+ 
+ 
+Intimidation 2016
+213
+INTIM_RAC16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Race
+214
+INTIM_REL16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Religion
+215
+INTIM_SEX16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Sexual Orientation
+216
+INTIM_GEN16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Gender
+217
+INTIM_GID16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Gender Identity
+218
+INTIM_DIS16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Disability
+219
+INTIM_ET16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias Ethnicity
+220
+INTIM_NAT16
+Num
+8
+ 
+ 
+Intimidation 2016 by Bias National Origin
+221
+VANDAL16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016
+222
+VANDAL_RAC16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Race
+223
+VANDAL_REL16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Religion
+224
+VANDAL_SEX16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Sexual Orientation
+225
+VANDAL_GEN16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Gender
+226
+VANDAL_GID16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Gender Identity
+227
+VANDAL_DIS16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Disability
+228
+VANDAL_ET16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias Ethnicity
+229
+VANDAL_NAT16
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2016 by Bias National Origin
+230
+MURD17
+Num
+8
+ 
+ 
+Murder 2017
+231
+MURD_RAC17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Race
+232
+MURD_REL17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Religion
+233
+MURD_SEX17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Sexual Orientation
+234
+MURD_GEN17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Gender
+235
+MURD_GID17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Gender Identity
+236
+MURD_DIS17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Disability
+237
+MURD_ET17
+Num
+8
+ 
+ 
+Murder 2017 by Bias Ethnicity
+238
+MURD_NAT17
+Num
+8
+ 
+ 
+Murder 2017 by Bias National Origin
+239
+RAPE17
+Num
+8
+ 
+ 
+Rape 2017
+240
+RAPE_RAC17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Race
+241
+RAPE_REL17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Religion
+242
+RAPE_SEX17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Sexual Orientation
+243
+RAPE_GEN17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Gender
+244
+RAPE_GID17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Gender Identity
+245
+RAPE_DIS17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Disability
+246
+RAPE_ET17
+Num
+8
+ 
+ 
+Rape 2017 by Bias Ethnicity
+247
+RAPE_NAT17
+Num
+8
+ 
+ 
+Rape 2017 by Bias National Origin
+248
+FOND17
+Num
+8
+ 
+ 
+Fondling 2017
+249
+FOND_RAC17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Race
+250
+FOND_REL17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Religion
+251
+FOND_SEX17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Sexual Orientation
+252
+FOND_GEN17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Gender
+253
+FOND_GID17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Gender Identity
+254
+FOND_DIS17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Disability
+255
+FOND_ET17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias Ethnicity
+256
+FOND_NAT17
+Num
+8
+ 
+ 
+Fondling 2017 by Bias National Origin
+257
+INCE17
+Num
+8
+ 
+ 
+Incest 2017
+258
+INCE_RAC17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Race
+259
+INCE_REL17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Religion
+260
+INCE_SEX17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Sexual Orientation
+261
+INCE_GEN17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Gender
+262
+INCE_GID17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Gender Identity
+263
+INCE_DIS17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Disability
+264
+INCE_ET17
+Num
+8
+ 
+ 
+Incest 2017 by Bias Ethnicity
+265
+INCE_NAT17
+Num
+8
+ 
+ 
+Incest 2017 by Bias National Origin
+266
+STAT17
+Num
+8
+ 
+ 
+Statutory Rape 2017
+267
+STAT_RAC17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Race
+268
+STAT_REL17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Religion
+269
+STAT_SEX17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Sexual Orientation
+270
+STAT_GEN17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Gender
+271
+STAT_GID17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Gender Identity
+272
+STAT_DIS17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Disability
+273
+STAT_ET17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias Ethnicity
+274
+STAT_NAT17
+Num
+8
+ 
+ 
+Statutory Rape 2017 by Bias National Origin
+275
+ROBBE17
+Num
+8
+ 
+ 
+Robbery 2017
+276
+ROBBE_RAC17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Race
+277
+ROBBE_REL17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Religion
+278
+ROBBE_SEX17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Sexual Orientation
+279
+ROBBE_GEN17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Gender
+280
+ROBBE_GID17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Gender Identity
+281
+ROBBE_DIS17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Disability
+282
+ROBBE_ET17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias Ethnicity
+283
+ROBBE_NAT17
+Num
+8
+ 
+ 
+Robbery 2017 by Bias National Origin
+284
+AGG_A17
+Num
+8
+ 
+ 
+Aggravated Assault 2017
+285
+AGG_A_RAC17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Race
+286
+AGG_A_REL17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Religion
+287
+AGG_A_SEX17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Sexual Orientation
+288
+AGG_A_GEN17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Gender
+289
+AGG_A_GID17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Gender Identity
+290
+AGG_A_DIS17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Disability
+291
+AGG_A_ET17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias Ethnicity
+292
+AGG_A_NAT17
+Num
+8
+ 
+ 
+Aggravated Assault 2017 by Bias National Origin
+293
+BURGLA17
+Num
+8
+ 
+ 
+Burglary 2017
+294
+BURGLA_RAC17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Race
+295
+BURGLA_REL17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Religion
+296
+BURGLA_SEX17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Sexual Orientation
+297
+BURGLA_GEN17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Gender
+298
+BURGLA_GID17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Gender Identity
+299
+BURGLA_DIS17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Disability
+300
+BURGLA_ET17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias Ethnicity
+301
+BURGLA_NAT17
+Num
+8
+ 
+ 
+Burglary 2017 by Bias National Origin
+302
+VEHIC17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017
+303
+VEHIC_RAC17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Race
+304
+VEHIC_REL17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Religion
+305
+VEHIC_SEX17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Sexual Orientation
+306
+VEHIC_GEN17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Gender
+307
+VEHIC_GID17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Gender Identity
+308
+VEHIC_DIS17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Disability
+309
+VEHIC_ET17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias Ethnicity
+310
+VEHIC_NAT17
+Num
+8
+ 
+ 
+Motor Vehicle Theft 2017 by Bias National Origin
+311
+ARSON17
+Num
+8
+ 
+ 
+Arson 2017
+312
+ARSON_RAC17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Race
+313
+ARSON_REL17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Religion
+314
+ARSON_SEX17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Sexual Orientation
+315
+ARSON_GEN17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Gender
+316
+ARSON_GID17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Gender Identity
+317
+ARSON_DIS17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Disability
+318
+ARSON_ET17
+Num
+8
+ 
+ 
+Arson 2017 by Bias Ethnicity
+319
+ARSON_NAT17
+Num
+8
+ 
+ 
+Arson 2017 by Bias National Origin
+320
+SIM_A17
+Num
+8
+ 
+ 
+Simple Assault 2017
+321
+SIM_A_RAC17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Race
+322
+SIM_A_REL17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Religion
+323
+SIM_A_SEX17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Sexual Orientation
+324
+SIM_A_GEN17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Gender
+325
+SIM_A_GID17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Gender Identity
+326
+SIM_A_DIS17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Disability
+327
+SIM_A_ET17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias Ethnicity
+328
+SIM_A_NAT17
+Num
+8
+ 
+ 
+Simple Assault 2017 by Bias National Origin
+329
+LAR_T17
+Num
+8
+ 
+ 
+Larceny 2017
+330
+LAR_T_RAC17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Race
+331
+LAR_T_REL17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Religion
+332
+LAR_T_SEX17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Sexual Orientation
+333
+LAR_T_GEN17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Gender
+334
+LAR_T_GID17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Gender Identity
+335
+LAR_T_DIS17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Disability
+336
+LAR_T_ET17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias Ethnicity
+337
+LAR_T_NAT17
+Num
+8
+ 
+ 
+Larceny 2017 by Bias National Origin
+338
+INTIM17
+Num
+8
+ 
+ 
+Intimidation 2017
+339
+INTIM_RAC17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Race
+340
+INTIM_REL17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Religion
+341
+INTIM_SEX17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Sexual Orientation
+342
+INTIM_GEN17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Gender
+343
+INTIM_GID17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Gender Identity
+344
+INTIM_DIS17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Disability
+345
+INTIM_ET17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias Ethnicity
+346
+INTIM_NAT17
+Num
+8
+ 
+ 
+Intimidation 2017 by Bias National Origin
+347
+VANDAL17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017
+348
+VANDAL_RAC17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Race
+349
+VANDAL_REL17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Religion
+350
+VANDAL_SEX17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Sexual Orientation
+351
+VANDAL_GEN17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Gender
+352
+VANDAL_GID17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Gender Identity
+353
+VANDAL_DIS17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Disability
+354
+VANDAL_ET17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias Ethnicity
+355
+VANDAL_NAT17
+Num
+8
+ 
+ 
+Destruction/Damage/Vandalism 2017 by Bias National Origin
+356
+FILTER15
+Num
+8
+ 
+ 
+Data_year = 2015 (FILTER)
+357
+FILTER16
+Num
+8
+ 
+ 
+Data_year = 2016 (FILTER)
+358
+FILTER17
+Num
+8
+ 
+ 
+Data_year = 2017 (FILTER)
