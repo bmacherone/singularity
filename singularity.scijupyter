@@ -23,6 +23,7 @@ apt-get install -y \
     pkg-config \
     tree \
     tcsh \
+    apcalc \
     freetds-dev
 
 # clean up
