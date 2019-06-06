@@ -19,7 +19,9 @@ $ singularity exec singularity_torchmatplotlib.sif python3 train_xor.py --output
 $ singularity pull shub://bmacherone/singularity:scijupyter
 
 $ singularity exec singularity_scijupyter.sif 
+...
 
+Samples in the notebooks directory
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIxMjQ4ODE1NywtMTc5MTk2NzEwOV19
