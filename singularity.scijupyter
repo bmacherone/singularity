@@ -90,7 +90,7 @@ apt-get remove -y wget git-core pkg-config
 %runscript
 export XDG_RUNTIME_DIR=""
 cd ~/notebooks
-jupyter lab --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token='data-science'
+jupyter lab --no-browser --ip=0.0.0.0 --port 128256 --allow-root --NotebookApp.token='data-science'
 
 
 %test
