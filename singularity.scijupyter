@@ -29,8 +29,10 @@ apt-get clean
 rm -rf /var/lib/apt/lists/* 
 
 # Install Jupyter config
+# some prep for git to access github.com
 #mkdir ~/.ssh && touch ~/.ssh/known_hosts 
 #ssh-keygen -F github.com || ssh-keyscan github.com >> ~/.ssh/known_hosts 
+# get configuration files from b lindesy, only use jupyter stuff
 git clone https://github.com/bobbywlindsey/dotfiles.git 
 mkdir ~/.jupyter 
 mkdir -p ~/.jupyter/custom 
