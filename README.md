@@ -24,5 +24,6 @@ $ singularity exec singularity_scijupyter.sif
 Samples in the notebooks directory
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ4ODE1NywtMTc5MTk2NzEwOV19
+eyJoaXN0b3J5IjpbMTA3MzM1ODcwOSwtMjEyNDg4MTU3LC0xNz
+kxOTY3MTA5XX0=
 -->
