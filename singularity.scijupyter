@@ -35,14 +35,20 @@ rm -rf /var/lib/apt/lists/*
 #mkdir ~/.ssh && touch ~/.ssh/known_hosts 
 #ssh-keygen -F github.com || ssh-keyscan github.com >> ~/.ssh/known_hosts 
 # get configuration files from b lindesy, only use jupyter stuff
-git clone https://github.com/bobbywlindsey/dotfiles.git 
+#git clone https://github.com/bobbywlindsey/dotfiles.git 
 mkdir ~/.jupyter 
 mkdir -p ~/.jupyter/custom 
 mkdir -p ~/.jupyter/nbconfig 
-cp /dotfiles/jupyter/jupyter_notebook_config.py ~/.jupyter/ 
-cp /dotfiles/jupyter/custom/custom.js ~/.jupyter/custom/ 
-cp /dotfiles/jupyter/nbconfig/notebook.json ~/.jupyter/nbconfig/ 
-rm -rf /dotfiles 
+#cp /dotfiles/jupyter/jupyter_notebook_config.py ~/.jupyter/ 
+wget https://raw.githubusercontent.com/bmacherone/singularity/master/jupyter_notebook_config.py \
+    -O ~/.jupyter/jupyter_notebook_config.py
+#cp /dotfiles/jupyter/custom/custom.js ~/.jupyter/custom/ 
+wget https://raw.githubusercontent.com/bmacherone/singularity/master/custom.js \
+    -O ~/.jupyter/custom/custom.js
+#cp /dotfiles/jupyter/nbconfig/notebook.json ~/.jupyter/nbconfig/ 
+wget https://raw.githubusercontent.com/bmacherone/singularity/master/notebook.json \
+    -O ~/.jupyter/nbconfig/notebook.json
+#rm -rf /dotfiles 
 
 # Install Anaconda
 echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh 
