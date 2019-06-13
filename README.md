@@ -15,19 +15,21 @@ $ singularity exec singularity_torchmatplotlib.sif python3 train_xor.py --output
 
 ## scientific python jupyter notebook environment
 
-```
 $ singularity pull shub://bmacherone/singularity:scijupyter
 
 $ singularity exec singularity_scijupyter.sif 
-...
 
 Samples in the notebooks directory
 
 ## singhesh - use singularity as a login shell
-cc -o singlesh singlesh.c
-cp singlesh /usr/local/bin/.
+
+...
+$ cc -o singlesh singlesh.c
+$ cp singlesh /usr/local/bin/.
+...
 
 in home direcotry, create a .singleshrc file with one, and only one line:
+
 ...
 exec /usr/local/singularity/mysingularitycontainter.sif /bin/bash
 ...
