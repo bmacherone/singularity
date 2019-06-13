@@ -1,0 +1,1 @@
+exec /usr/local/singularity/ubuntu_16.04.sif /bin/bash
