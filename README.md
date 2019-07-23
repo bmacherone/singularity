@@ -39,3 +39,6 @@ exec /usr/local/singularity/mysingularitycontainter.sif /bin/bash
 change shell entry in /etc/passwd to /usr/local/bin/singlesh
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk5NDk3ODYzOF19
+-->
